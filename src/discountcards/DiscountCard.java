@@ -39,4 +39,5 @@ public abstract class DiscountCard {
     public double getDiscount(double purchaseValue) {
         return purchaseValue * discountRate / 100.0;
     }
+
 }
